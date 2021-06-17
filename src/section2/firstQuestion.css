@@ -1,0 +1,29 @@
+.first-column{
+    width:200px;
+    min-width:200px;
+    flex-grow:0;
+}
+.second-column{
+    min-width:100px;
+    flex-grow:1;
+    overflow-x:hidden !important;
+}
+.third-column{
+    min-width:300px;
+    flex-grow:0;
+    width:300px;
+}
+.column{
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    overflow-x:auto;
+}
+.column-content{
+    margin:10px;
+    height:fit-content;
+}
+.main-content{
+    height:100%;
+    display:flex; 
+}
